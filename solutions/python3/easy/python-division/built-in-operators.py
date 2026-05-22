@@ -1,0 +1,21 @@
+# ──────────────────────────────────────────────────
+# Problem     Python: Division
+# Difficulty  Easy
+# Subdomain   Introduction
+# Platform    HackerRank
+# Language    python3
+# Status      Accepted
+# Submitted   2026-05-22, 06:12 p.m.
+# Approach    built in operators
+# Time        O(1)
+# Space       O(1)
+# Trick       Use // for integer (floor) division and / for float division.
+# ──────────────────────────────────────────────────
+#
+# Read two integers and output the results of floor division and float division using built-in operators.
+
+if __name__ == '__main__':
+    a = int(input())
+    b = int(input())
+    print(a//b)
+    print(a/b)
