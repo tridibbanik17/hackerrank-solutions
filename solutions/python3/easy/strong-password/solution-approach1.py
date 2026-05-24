@@ -6,11 +6,11 @@
 # Language    python3
 # Status      Accepted
 # Submitted   2026-05-24, 07:30 p.m.
-# Technique   boolean-flag-array
+# Technique   boolean-flag-tracking
 # Time        O(n)
 # Space       O(1)
-# Trick       Use a fixed-size boolean list with isdigit, islower, and isupper to track missing categories, then return the maximum of missing types vers…
-# Hint        conditions.count(False) identifies missing categories; max(missing, 6-n) is a cleaner alternative.
+# Trick       Using a boolean list to track condition satisfaction simplifies the logic for calculating the maximum of missing requirements and length de…
+# Hint        Use conditions.count(False) to aggregate missing character types efficiently.
 # ──────────────────────────────────────────────────
 
 #!/bin/python3
@@ -29,7 +29,7 @@ import sys
 #  1. INTEGER n
 #  2. STRING password
 #
-# conditions.count(False) identifies missing categories; max(missing, 6-n) is a cleaner alternative.
+# Use conditions.count(False) to aggregate missing character types efficiently.
 
 def minimumNumber(n, password):
     # Return the minimum number of characters to make the password strong
