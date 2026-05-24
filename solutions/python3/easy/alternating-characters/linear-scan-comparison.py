@@ -5,14 +5,14 @@
 # Platform    HackerRank
 # Language    python3
 # Status      Accepted
-# Submitted   2026-05-24, 04:52 p.m.
+# Submitted   2026-05-24, 04:58 p.m.
 # Approach    linear scan comparison
 # Time        O(n)
-# Space       O(n)
-# Trick       Count consecutive identical characters to determine necessary deletions.
+# Space       O(1)
+# Trick       Count consecutive identical characters; each match requires one deletion to maintain alternation.
 # ──────────────────────────────────────────────────
 #
-# The code iterates through the string and increments a counter whenever a character is the same as the one immediately preceding it.
+# Iterate through the string once and increment a counter whenever the current character is the same as the previous one.
 
 #!/bin/python3
 
@@ -32,11 +32,11 @@ import sys
 def alternatingCharacters(s):
     # Write your code here
     num_of_deletions = 0
-    s_list = list(s)
-    if len(s_list) == 1 or len(s_list) == 0:
+
+    if len(s) == 1 or len(s) == 0:
         return 0
-    for i in range(1, len(s_list)):
-        if s_list[i] == s_list[i-1]:
+    for i in range(1, len(s)):
+        if s[i] == s[i-1]:
             num_of_deletions += 1
     return num_of_deletions
 
