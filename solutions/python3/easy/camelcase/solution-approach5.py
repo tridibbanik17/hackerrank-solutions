@@ -5,12 +5,12 @@
 # Platform    HackerRank
 # Language    python3
 # Status      Accepted
-# Submitted   2026-05-24, 06:09 p.m.
+# Submitted   2026-05-24, 06:15 p.m.
 # Technique   ord-ascii-scan
 # Time        O(n)
 # Space       O(1)
-# Trick       Uses ord() to manually check ASCII ranges for uppercase letters instead of the higher-level isupper() method. This approach is highly performant as it avoids method call overhead and string object creation, though it is less idiomatic than using c.isupper().
-# Hint        ord(c) in range(65, 91) is equivalent to c.isupper()
+# Trick       Uses ord() to check ASCII ranges 65-90, avoiding string method overhead while assuming the first word is always lowercase.
+# Hint        ord(s[i]) in range(65, 91) is equivalent to s[i].isupper()
 # ──────────────────────────────────────────────────
 
 #!/bin/python3
@@ -27,7 +27,7 @@ import sys
 # The function is expected to return an INTEGER.
 # The function accepts STRING s as parameter.
 #
-# ord(c) in range(65, 91) is equivalent to c.isupper()
+# ord(s[i]) in range(65, 91) is equivalent to s[i].isupper()
 
 def camelcase(s):
     num_of_words = 1
