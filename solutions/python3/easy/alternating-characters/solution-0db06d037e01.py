@@ -8,7 +8,7 @@
 # Submitted   2026-05-24, 05:09 p.m.
 # Time        O(n)
 # Space       O(1)
-# Trick       Count adjacent duplicate characters; each duplicate represents a necessary deletion to maintain alternation.
+# Trick       Count the number of adjacent identical characters; each pair represents a necessary deletion.
 # ──────────────────────────────────────────────────
 
 #!/bin/python3
