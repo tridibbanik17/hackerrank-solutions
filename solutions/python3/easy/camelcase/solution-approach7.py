@@ -5,7 +5,7 @@
 # Platform    HackerRank
 # Language    python3
 # Status      Accepted
-# Submitted   2026-05-24, 06:29 p.m.
+# Submitted   2026-05-24, 06:34 p.m.
 # Technique   isupper-generator-sum
 # Time        O(n)
 # Space       O(1)
