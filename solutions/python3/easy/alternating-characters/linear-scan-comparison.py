@@ -9,7 +9,7 @@
 # Approach    linear scan comparison
 # Time        O(n)
 # Space       O(1)
-# Trick       Count consecutive identical characters; each match requires one deletion to maintain alternation.
+# Trick       Count consecutive identical characters; each pair requires one deletion to maintain alternation.
 # ──────────────────────────────────────────────────
 #
 # Iterate through the string once and increment a counter whenever the current character is the same as the previous one.
