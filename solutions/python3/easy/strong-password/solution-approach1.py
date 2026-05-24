@@ -5,12 +5,12 @@
 # Platform    HackerRank
 # Language    python3
 # Status      Accepted
-# Submitted   2026-05-24, 07:30 p.m.
-# Technique   boolean-flag-tracking
+# Submitted   2026-05-24, 07:36 p.m.
+# Technique   boolean-flags-scan
 # Time        O(n)
 # Space       O(1)
-# Trick       Using a boolean list to track condition satisfaction simplifies the logic for calculating the maximum of missing requirements and length de…
-# Hint        Use conditions.count(False) to aggregate missing character types efficiently.
+# Trick       Calculate missing character types and length deficit, then return the maximum of these two values to satisfy both constraints simultaneously.
+# Hint        Use conditions.count(False) to quickly tally missing character categories.
 # ──────────────────────────────────────────────────
 
 #!/bin/python3
@@ -29,7 +29,7 @@ import sys
 #  1. INTEGER n
 #  2. STRING password
 #
-# Use conditions.count(False) to aggregate missing character types efficiently.
+# Use conditions.count(False) to quickly tally missing character categories.
 
 def minimumNumber(n, password):
     # Return the minimum number of characters to make the password strong
