@@ -5,7 +5,7 @@
 # Platform    HackerRank
 # Language    python3
 # Status      Accepted
-# Submitted   2026-05-24, 07:36 p.m.
+# Submitted   2026-05-24, 07:37 p.m.
 # Technique   boolean-flags-scan
 # Time        O(n)
 # Space       O(1)
