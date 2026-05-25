@@ -5,7 +5,7 @@
 # Platform    HackerRank
 # Language    python3
 # Status      Accepted
-# Submitted   2026-05-25, 12:45 p.m.
+# Submitted   2026-05-25, 12:47 p.m.
 # Technique   running-average-list
 # Time        O(n^2)
 # Space       O(n)
