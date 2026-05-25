@@ -5,7 +5,7 @@
 # Platform    HackerRank
 # Language    N/A
 # Status      Accepted
-# Submitted   2026-05-24, 10:30 p.m.
+# Submitted   2026-05-24, 10:38 p.m.
 # Technique   hash-map-complement
 # Time        O(n)
 # Space       O(n)
