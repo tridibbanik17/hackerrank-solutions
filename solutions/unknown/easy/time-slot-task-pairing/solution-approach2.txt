@@ -1,0 +1,28 @@
+# ──────────────────────────────────────────────────
+# Problem     Two Sum
+# Difficulty  Easy
+# Subdomain   N/A
+# Platform    HackerRank
+# Language    N/A
+# Status      Accepted
+# Submitted   2026-05-24, 10:33 p.m.
+# Technique   hash-map-complement
+# Time        O(n)
+# Space       O(n)
+# Trick       Store seen values in a dictionary to check for the complement (target - current) in constant time during a single pass.
+# Hint        Use a dictionary for O(1) lookups.
+# ──────────────────────────────────────────────────
+
+# Use a dictionary for O(1) lookups.
+#!/bin/python3
+
+#
+# Complete the 'findTaskPairForSlot' function 
+below.
+#
+# The function is expected to return an 
+INTEGER_ARRAY.
+# The function accepts following parameters:
+#  1. INTEGER_ARRAY taskDurations
+#  2. INTEGER slotLength
+#
