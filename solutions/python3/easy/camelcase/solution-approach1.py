@@ -5,10 +5,12 @@
 # Platform    HackerRank
 # Language    python3
 # Status      Accepted
-# Submitted   2026-05-24, 05:47 p.m.
+# Submitted   2026-05-24, 11:09 p.m.
+# Technique   filter-isupper-count
 # Time        O(n)
-# Space       O(1)
-# Trick       CamelCase words are delimited by uppercase letters, so count the number of uppercase characters and add one.
+# Space       O(n)
+# Trick       Count uppercase letters and add one to account for the first word, leveraging the functional filter pattern for concise iteration.
+# Hint        str.isupper is a clean alternative to manual ASCII range checks.
 # ──────────────────────────────────────────────────
 
 #!/bin/python3
@@ -27,13 +29,8 @@ import sys
 #
 
 def camelcase(s):
-    num_of_words = 1
-    # Write your code here
-    for i in range(len(s)):
-        if ord(s[i]) >=65 and ord(s[i]) <= 90:
-            num_of_words += 1
-    return num_of_words
-
+    return 1 + len(list(filter(str.isupper, s)))
+    
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
 
