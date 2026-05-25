@@ -5,12 +5,12 @@
 # Platform    HackerRank
 # Language    python3
 # Status      Accepted
-# Submitted   2026-05-24, 07:39 p.m.
-# Technique   boolean-flags-scan
+# Submitted   2026-05-24, 10:10 p.m.
+# Technique   regex-pattern-matching
 # Time        O(n)
 # Space       O(1)
-# Trick       Calculate missing character types and length deficit, then return the maximum of these two values to satisfy both constraints simultaneously.
-# Hint        Use conditions.count(False) to quickly tally missing character categories.
+# Trick       Calculate missing character types and length deficit, then return the maximum of these two values to satisfy all constraints.
+# Hint        Use re.search for concise character class validation.
 # ──────────────────────────────────────────────────
 
 #!/bin/python3
@@ -29,28 +29,16 @@ import sys
 #  1. INTEGER n
 #  2. STRING password
 #
-# Use conditions.count(False) to quickly tally missing character categories.
+# Use re.search for concise character class validation.
 
 def minimumNumber(n, password):
-    # Return the minimum number of characters to make the password strong
-    number_of_char = 0
-    special_char = '!@#$%^&*()-+'
-    conditions = [False] * 4
-    for i in range(n):
-        if password[i].isdigit():
-            conditions[0] = True
-        if password[i].islower():
-            conditions[1] = True
-        if password[i].isupper():
-            conditions[2] = True
-        if password[i] in special_char:
-            conditions[3] = True
-    false_condition = conditions.count(False)
-    number_of_char = (6 - n)
-    extra_char = false_condition - number_of_char
-    if extra_char > 0:
-        number_of_char += extra_char
-    return number_of_char
+    missing = 0
+    if not re.search(r'\d', password): missing += 1
+    if not re.search(r'[a-z]', password): missing += 1
+    if not re.search(r'[A-Z]', password): missing += 1
+    if not re.search(r'[!@#$%^&*()\-+]', password): missing += 1
+    
+    return max(missing, max(0, 6 - n))
     
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
