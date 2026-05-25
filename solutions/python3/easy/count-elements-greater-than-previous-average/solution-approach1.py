@@ -5,12 +5,7 @@
 # Platform    HackerRank
 # Language    python3
 # Status      Accepted
-# Submitted   2026-05-25, 01:58 p.m.
-# Technique   running-average-tracking
-# Time        O(n^2)
-# Space       O(n)
-# Trick       Maintain a list of all previous elements to calculate the average at each step, though a running sum variable would optimize to O(n).
-# Hint        Use a running sum variable to avoid O(n) inner loop.
+# Submitted   2026-05-25, 01:52 p.m.
 # ──────────────────────────────────────────────────
 
 #!/bin/python3
