@@ -5,12 +5,7 @@
 # Platform    HackerRank
 # Language    python3
 # Status      Accepted
-# Submitted   2026-05-25, 04:09 p.m.
-# Technique   iterative-summation
-# Time        O(n)
-# Space       O(1)
-# Trick       Accumulate values by iterating through the list, which is memory-efficient compared to creating intermediate structures.
-# Hint        Use the built-in sum() function for idiomatic Python.
+# Submitted   2026-05-25, 04:45 p.m.
 # ──────────────────────────────────────────────────
 
 #!/bin/python3
