@@ -5,12 +5,7 @@
 # Platform    HackerRank
 # Language    python3
 # Status      Accepted
-# Submitted   2026-05-24, 07:46 p.m.
-# Technique   regex-pattern-matching
-# Time        O(n)
-# Space       O(1)
-# Trick       Calculate missing character types and length deficit, then return the maximum of these two values to satisfy all constraints.
-# Hint        Use re.search for concise character class validation.
+# Submitted   2026-05-24, 08:05 p.m.
 # ──────────────────────────────────────────────────
 
 #!/bin/python3
@@ -29,7 +24,6 @@ import sys
 #  1. INTEGER n
 #  2. STRING password
 #
-# Use re.search for concise character class validation.
 
 def minimumNumber(n, password):
     missing = 0
