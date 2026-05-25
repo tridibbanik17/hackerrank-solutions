@@ -6,6 +6,11 @@
 # Language    python3
 # Status      Accepted
 # Submitted   2026-05-25, 04:58 p.m.
+# Technique   hash-map-lookup
+# Time        O(n)
+# Space       O(n)
+# Trick       Store seen values in a dictionary to achieve O(1) lookup for the complement, trading memory for linear time complexity.
+# Hint        Use a dictionary for O(1) average time complexity lookups.
 # ──────────────────────────────────────────────────
 
 #!/bin/python3
