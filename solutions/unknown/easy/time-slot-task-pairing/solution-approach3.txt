@@ -1,0 +1,30 @@
+# ──────────────────────────────────────────────────
+# Problem     Two Sum
+# Difficulty  Easy
+# Subdomain   N/A
+# Platform    HackerRank
+# Language    N/A
+# Status      Accepted
+# Submitted   2026-05-24, 10:39 p.m.
+# Technique   hash-map-lookup
+# Time        O(n)
+# Space       O(n)
+# Trick       Store the complement of each element in a hash map to achieve linear time complexity at the cost of extra space.
+# Hint        Use a dictionary for O(1) average time complexity lookups.
+# ──────────────────────────────────────────────────
+
+# Use a dictionary for O(1) average time complexity lookups.
+#
+
+def findTaskPairForSlot(taskDurations, slotLength):
+    # Write your code here
+    hash_map = {}
+    for i in range(len(taskDurations)):
+        diff = slotLength - taskDurations[i]
+        if diff in hash_map:
+            return [hash_map[diff],i]
+        hash_map[taskDurations[i]] = i
+#  1. INTEGER_ARRAY taskDurations
+#  2. INTEGER slotLength
+# The function accepts following parameters:
+# The function is expected to return an INTEGER_ARRAY.
