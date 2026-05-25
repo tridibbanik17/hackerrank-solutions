@@ -5,7 +5,7 @@
 # Platform    HackerRank
 # Language    python3
 # Status      Accepted
-# Submitted   2026-05-25, 12:08 p.m.
+# Submitted   2026-05-25, 12:12 p.m.
 # Technique   hash-map-lookup
 # Time        O(n)
 # Space       O(n)
