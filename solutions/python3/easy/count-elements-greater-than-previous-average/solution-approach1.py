@@ -1,16 +1,11 @@
 # ──────────────────────────────────────────────────
 # Problem     Count Elements Greater Than Previous Average
 # Difficulty  Easy
-# Subdomain   N/A
+# Subdomain   Software Engineer Prep Kit
 # Platform    HackerRank
 # Language    python3
 # Status      Accepted
-# Submitted   2026-05-25, 10:07 p.m.
-# Technique   running-average-list
-# Time        O(n^2)
-# Space       O(n)
-# Trick       Maintain a growing list of previous elements to calculate the average at each step, though this is inefficient compared to tracking a running sum.
-# Hint        Use a running sum variable to achieve O(n) time complexity.
+# Submitted   2026-05-25, 11:25 p.m.
 # ──────────────────────────────────────────────────
 
 #!/bin/python3
