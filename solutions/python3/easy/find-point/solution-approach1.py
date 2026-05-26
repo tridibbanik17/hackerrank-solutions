@@ -5,12 +5,7 @@
 # Platform    HackerRank
 # Language    python3
 # Status      Accepted
-# Submitted   2026-05-26, 01:35 a.m.
-# Technique   midpoint-reflection-formula
-# Time        O(1)
-# Space       O(1)
-# Trick       The reflected point R is calculated by adding twice the vector PQ to the starting point P.
-# Hint        Uses vector arithmetic: R = P + 2(Q - P) = 2Q - P
+# Submitted   2026-05-26, 01:43 a.m.
 # ──────────────────────────────────────────────────
 
 #!/bin/python3
