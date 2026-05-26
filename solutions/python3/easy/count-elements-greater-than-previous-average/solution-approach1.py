@@ -5,12 +5,7 @@
 # Platform    HackerRank
 # Language    python3
 # Status      Accepted
-# Submitted   2026-05-26, 11:07 a.m.
-# Technique   running-average-scan
-# Time        O(n)
-# Space       O(1)
-# Trick       Maintain a running sum to calculate the average in constant time per element, avoiding redundant O(n) summation inside the loop.
-# Hint        Use a running sum variable to keep complexity linear.
+# Submitted   2026-05-26, 11:41 a.m.
 # ──────────────────────────────────────────────────
 
 #!/bin/python3
