@@ -5,12 +5,7 @@
 # Platform    HackerRank
 # Language    python3
 # Status      Accepted
-# Submitted   2026-05-25, 11:35 p.m.
-# Technique   backtracking-constraint-solver
-# Time        O(9^N)
-# Space       O(N)
-# Trick       Use recursive backtracking to fill empty cells while validating row, column, block, and both diagonal constraints simultaneously.
-# Hint        Use integer division for block indexing: 3 * (row // 3).
+# Submitted   2026-05-26, 01:56 a.m.
 # ──────────────────────────────────────────────────
 
 #!/bin/python3
@@ -74,7 +69,6 @@ def completeDiagonalSudokuGrid(grid):
 
     backtrack(grid)
     return grid
-
 
 if __name__ == '__main__':
     grid_rows = int(input().strip())
