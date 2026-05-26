@@ -5,12 +5,7 @@
 # Platform    HackerRank
 # Language    python3
 # Status      Accepted
-# Submitted   2026-05-25, 10:15 p.m.
-# Technique   recursive-range-validation
-# Time        O(N)
-# Space       O(H)
-# Trick       Pass down a valid range [min, max] to each recursive call to ensure every node satisfies the BST property relative to all ancestors.
-# Hint        Use float('-inf') and float('inf') for initial boundary conditions.
+# Submitted   2026-05-25, 11:59 p.m.
 # ──────────────────────────────────────────────────
 
 
