@@ -6,6 +6,11 @@
 # Language    python3
 # Status      Accepted
 # Submitted   2026-05-26, 01:56 a.m.
+# Technique   backtracking-constraint-solver
+# Time        O(9^N)
+# Space       O(N)
+# Trick       Use recursive backtracking with conditional checks for row, column, block, and both diagonals to prune the search space efficiently.
+# Hint        Use row // 3 * 3 for block indexing.
 # ──────────────────────────────────────────────────
 
 #!/bin/python3
