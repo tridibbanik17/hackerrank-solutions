@@ -6,6 +6,11 @@
 # Language    python3
 # Status      Accepted
 # Submitted   2026-05-25, 11:56 p.m.
+# Technique   nested-loop-filter
+# Time        O(x*y*z)
+# Space       O(x*y*z)
+# Trick       Generate all coordinate combinations using nested loops and filter out those whose sum equals n.
+# Hint        Use list comprehensions for more concise syntax.
 # ──────────────────────────────────────────────────
 
 def list_comprehension(x,y,z,n):
