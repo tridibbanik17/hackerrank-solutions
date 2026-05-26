@@ -6,6 +6,11 @@
 # Language    python3
 # Status      Accepted
 # Submitted   2026-05-25, 11:35 p.m.
+# Technique   backtracking-constraint-solver
+# Time        O(9^N)
+# Space       O(N)
+# Trick       Use recursive backtracking to fill empty cells while validating row, column, block, and both diagonal constraints simultaneously.
+# Hint        Use integer division for block indexing: 3 * (row // 3).
 # ──────────────────────────────────────────────────
 
 #!/bin/python3
