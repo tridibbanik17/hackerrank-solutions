@@ -5,12 +5,7 @@
 # Platform    HackerRank
 # Language    python3
 # Status      Accepted
-# Submitted   2026-05-25, 01:50 p.m.
-# Technique   pigeonhole-principle-math
-# Time        O(1)
-# Space       O(1)
-# Trick       Apply the pigeonhole principle by drawing all n items plus one additional item to guarantee a matching pair.
-# Hint        Direct arithmetic return n + 1
+# Submitted   2026-05-25, 10:16 p.m.
 # ──────────────────────────────────────────────────
 
 #!/bin/python3
