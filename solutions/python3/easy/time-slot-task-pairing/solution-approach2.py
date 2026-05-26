@@ -5,12 +5,7 @@
 # Platform    HackerRank
 # Language    python3
 # Status      Accepted
-# Submitted   2026-05-26, 02:02 p.m.
-# Technique   hash-map-lookup
-# Time        O(n)
-# Space       O(n)
-# Trick       Store values in a dictionary to check for the complement (slotLength - val) in constant time during a single pass.
-# Hint        Use a dictionary for O(1) average lookup time.
+# Submitted   2026-05-26, 02:09 p.m.
 # ──────────────────────────────────────────────────
 
 #!/bin/python3
