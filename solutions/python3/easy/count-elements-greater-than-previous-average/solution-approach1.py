@@ -5,12 +5,7 @@
 # Platform    HackerRank
 # Language    python3
 # Status      Accepted
-# Submitted   2026-05-26, 10:30 a.m.
-# Technique   running-average-list
-# Time        O(n^2)
-# Space       O(n)
-# Trick       Maintain a growing list of previous elements to calculate the average at each step, though this is inefficient compared to tracking a running sum.
-# Hint        Use a running sum variable to achieve O(n) time complexity.
+# Submitted   2026-05-26, 10:55 a.m.
 # ──────────────────────────────────────────────────
 
 #!/bin/python3
@@ -33,17 +28,14 @@ import sys
 def countResponseTimeRegressions(responseTimes):
     # Write your code here
     res = 0
+    prev_sum = 0
     if len(responseTimes) == 0 or len(responseTimes) == 1:
         return 0
-    prev_list = [responseTimes[0]]
     for i in range(1,len(responseTimes)):
-        list_sum = 0
-        for j in prev_list:
-            list_sum += j
-        list_avg = list_sum/i
-        if responseTimes[i] > list_avg:
+        prev_sum += responseTimes[i-1]
+        prev_avg = prev_sum / i       
+        if responseTimes[i] > prev_avg:
             res += 1
-        prev_list.append(responseTimes[i])
     return res
 
 if __name__ == '__main__':
