@@ -6,6 +6,11 @@
 -- Language    db2
 -- Status      Accepted
 -- Submitted   2026-05-29, 11:21 p.m.
+-- Technique   conditional-row-filtering
+-- Time        O(N log N)
+-- Space       O(N)
+-- Trick       Filter rows using multiple logical conditions in the WHERE clause before sorting by the primary key.
+-- Hint        DB2 requires explicit column ordering for deterministic results.
 -- ──────────────────────────────────────────────────
 
 
