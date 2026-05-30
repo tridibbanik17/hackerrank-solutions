@@ -6,6 +6,11 @@
 -- Language    sql
 -- Status      Accepted
 -- Submitted   2026-05-29, 11:31 p.m.
+-- Technique   cross-join-sieve
+-- Time        O(N*sqrt(N))
+-- Space       O(N)
+-- Trick       Use a cross join to generate numbers and a left join with modulo to filter non-primes by checking for divisors up to the square root.
+-- Hint        Use GROUP BY and HAVING to identify numbers with zero divisors.
 -- ──────────────────────────────────────────────────
 
 
