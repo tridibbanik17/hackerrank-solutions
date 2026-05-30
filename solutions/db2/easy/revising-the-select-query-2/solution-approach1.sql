@@ -6,6 +6,11 @@
 -- Language    db2
 -- Status      Accepted
 -- Submitted   2026-05-29, 11:15 p.m.
+-- Technique   simple-where-clause
+-- Time        O(N)
+-- Space       O(1)
+-- Trick       Use a standard WHERE clause with logical AND operators to filter rows based on multiple column criteria simultaneously.
+-- Hint        Ensure column names match schema exactly.
 -- ──────────────────────────────────────────────────
 
 
