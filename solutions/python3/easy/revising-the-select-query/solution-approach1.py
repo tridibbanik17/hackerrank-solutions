@@ -6,6 +6,11 @@
 # Language    python3
 # Status      Accepted
 # Submitted   2026-05-29, 11:07 p.m.
+# Technique   sql-select-filter
+# Time        O(N)
+# Space       O(1)
+# Trick       Use a standard SELECT statement with a WHERE clause combining multiple conditions using the AND operator to filter rows efficiently.
+# Hint        Ensure column names match schema exactly and include the semicolon.
 # ──────────────────────────────────────────────────
 
 
