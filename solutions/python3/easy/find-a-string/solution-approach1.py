@@ -6,6 +6,11 @@
 # Language    python3
 # Status      Accepted
 # Submitted   2026-06-21, 10:21 p.m.
+# Technique   sliding-window-slice
+# Time        O(n*m)
+# Space       O(m)
+# Trick       Iterate through all possible start indices and compare slices of the string to the target substring.
+# Hint        Slicing creates a new string object of length m.
 # ──────────────────────────────────────────────────
 
 def count_substring(string, sub_string):
