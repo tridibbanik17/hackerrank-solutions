@@ -6,6 +6,11 @@
 -- Language    db2
 -- Status      Accepted
 -- Submitted   2026-06-21, 10:02 p.m.
+-- Technique   order-by-clause
+-- Time        O(N log N)
+-- Space       O(N)
+-- Trick       Use the ORDER BY clause with the ASC keyword to sort string data lexicographically in ascending order.
+-- Hint        Default sort order is ascending if ASC is omitted.
 -- ──────────────────────────────────────────────────
 
 
