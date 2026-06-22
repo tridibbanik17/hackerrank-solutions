@@ -6,6 +6,11 @@
 # Language    python3
 # Status      Accepted
 # Submitted   2026-06-21, 10:35 p.m.
+# Technique   sort-and-merge
+# Time        O(n log n)
+# Space       O(n)
+# Trick       Sort by start time, then greedily update the last interval's end if the current start overlaps with the previous end.
+# Hint        Use list[-1] to access the last merged interval efficiently.
 # ──────────────────────────────────────────────────
 
 #!/bin/python3
