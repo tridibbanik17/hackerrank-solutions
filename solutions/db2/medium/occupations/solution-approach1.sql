@@ -6,6 +6,11 @@
 -- Language    db2
 -- Status      Accepted
 -- Submitted   2026-06-21, 10:11 p.m.
+-- Technique   row-number-pivot
+-- Time        O(N log N)
+-- Space       O(N)
+-- Trick       Use ROW_NUMBER to create grouping keys and conditional aggregation to pivot rows into columns while handling missing values with COALESCE.
+-- Hint        Use PARTITION BY to align names across rows by rank.
 -- ──────────────────────────────────────────────────
 
 
