@@ -6,6 +6,11 @@
 // Language    java15
 // Status      Accepted
 // Submitted   2026-06-21, 10:40 p.m.
+// Technique   message-digest-hashing
+// Time        O(n)
+// Space       O(1)
+// Trick       Use MessageDigest.getInstance("SHA-256") and format bytes as hex strings using String.format with the %02x specifier to ensure leading zeros.
+// Hint        Use %02x to pad single-digit hex values with a zero.
 // ──────────────────────────────────────────────────
 
 import java.io.*;
