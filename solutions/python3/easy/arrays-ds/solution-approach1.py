@@ -1,17 +1,12 @@
 # ──────────────────────────────────────────────────
-# Problem     Arrays - DS
 # Link        https://www.hackerrank.com/challenges/arrays-ds/problem?isFullScreen=true
+# Problem     Arrays - DS
 # Difficulty  Easy
 # Subdomain   Arrays
 # Platform    HackerRank
 # Language    python3
 # Status      Accepted
-# Submitted   2026-07-08, 07:21 p.m.
-# Technique   list-slicing-reverse
-# Time        O(n)
-# Space       O(n)
-# Trick       Use Python's extended slice syntax [::-1] to create a reversed copy of the list efficiently in a single line.
-# Hint        Slicing creates a shallow copy of the original list.
+# Submitted   2026-07-08, 07:25 p.m.
 # ──────────────────────────────────────────────────
 
 #!/bin/python3
