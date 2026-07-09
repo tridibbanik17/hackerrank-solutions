@@ -7,6 +7,10 @@
 # Language    python3
 # Status      Accepted
 # Submitted   2026-07-08, 08:14 p.m.
+# Technique   recursive-range-validation
+# Time        O(N)
+# Space       O(H)
+# Trick       The function uses recursive calls with float('-inf') and float('inf') to propagate valid data boundaries down the tree branches.
 # ──────────────────────────────────────────────────
 
 
