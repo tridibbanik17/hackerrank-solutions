@@ -6,12 +6,7 @@
 -- Platform    HackerRank
 -- Language    db2
 -- Status      Accepted
--- Submitted   2026-07-08, 08:23 p.m.
--- Technique   conditional-aggregation-pivot
--- Time        O(N log N)
--- Space       O(N)
--- Trick       The query uses ROW_NUMBER() to create grouping keys and MAX() with CASE statements to pivot categorical data into columns.
--- Hint        ROW_NUMBER() requires an ORDER BY clause within the OVER partition.
+-- Submitted   2026-07-08, 08:33 p.m.
 -- ──────────────────────────────────────────────────
 
 
