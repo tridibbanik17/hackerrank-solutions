@@ -7,6 +7,11 @@
 # Language    python3
 # Status      Accepted
 # Submitted   2026-07-08, 08:19 p.m.
+# Technique   two-pointers-floyd
+# Time        O(n)
+# Space       O(1)
+# Trick       The algorithm uses two pointers moving at different speeds to detect a cycle by checking if slow == fast.
+# Hint        fast.next.next will raise AttributeError if fast.next is None.
 # ──────────────────────────────────────────────────
 
 
