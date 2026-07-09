@@ -7,6 +7,11 @@
 # Language    python3
 # Status      Accepted
 # Submitted   2026-07-08, 08:11 p.m.
+# Technique   list-slice-reverse
+# Time        O(n)
+# Space       O(n)
+# Trick       The code utilizes Python's extended slice syntax [::-1] to create a reversed copy of the input list efficiently.
+# Hint        The [::-1] syntax creates a new list, consuming extra memory.
 # ──────────────────────────────────────────────────
 
 #!/bin/python3
