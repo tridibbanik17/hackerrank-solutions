@@ -7,6 +7,11 @@
 # Language    python3
 # Status      Accepted
 # Submitted   2026-07-14, 12:44 p.m.
+# Technique   basic-arithmetic-print
+# Time        O(1)
+# Space       O(1)
+# Trick       The code uses the built-in input() function to capture strings and converts them to integers using int() for standard arithmetic operations.
+# Hint        input() always returns a string, requiring explicit type conversion.
 # ──────────────────────────────────────────────────
 
 if __name__ == '__main__':
