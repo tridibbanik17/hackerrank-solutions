@@ -1,11 +1,12 @@
 # ──────────────────────────────────────────────────
+# Link        https://www.hackerrank.com/contests/software-engineer-prep-kit/challenges/count-elements-greater-than-previous-average/problem?isFullScreen=true
 # Problem     Count Elements Greater Than Previous Average
 # Difficulty  Easy
 # Subdomain   Software Engineer Prep Kit
 # Platform    HackerRank
 # Language    python3
 # Status      Accepted
-# Submitted   2026-06-21, 10:29 p.m.
+# Submitted   2026-07-14, 12:30 p.m.
 # ──────────────────────────────────────────────────
 
 #!/bin/python3
