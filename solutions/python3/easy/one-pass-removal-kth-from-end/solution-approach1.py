@@ -7,6 +7,12 @@
 # Language    python3
 # Status      Accepted
 # Submitted   2026-07-22, 12:14 a.m.
+# Technique   two-pointers-with-dummy-node
+# Time        O(n)
+# Space       O(1)
+# Insight     The dummy node allows the slow pointer to stop at the node preceding the target, ensuring the head can be removed if k equals the list length.
+# Interview   Before: "How do we handle removing the head node?" After: "By using a dummy node, we maintain a consistent O(n) logic where the slow pointer always stops at the predecessor, even when k equals the list length."
+# Pitfalls    (1) k=0 is treated as invalid per the loop range(k+1) logic  (2) k greater than or equal to list length returns original head  (3) fast pointer advancement by k+1 is required to position slow at the predecessor
 # ──────────────────────────────────────────────────
 
 #!/bin/python3
