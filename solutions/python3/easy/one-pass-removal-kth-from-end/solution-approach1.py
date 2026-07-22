@@ -7,6 +7,12 @@
 # Language    python3
 # Status      Accepted
 # Submitted   2026-07-22, 12:40 a.m.
+# Technique   two-pointers-with-dummy-node
+# Time        O(n)
+# Space       O(1)
+# Insight     The algorithm uses a dummy node and two pointers separated by a distance of k+1 to identify the node immediately preceding the target for removal in a single pass.
+# Interview   Before: "How do I remove the k-th node from the end without knowing the list length?" After: "I use two pointers with a k+1 gap to reach the predecessor in O(n) time, handling the head-removal case by anchoring the pointers at a dummy node."
+# Pitfalls    (1) Failing to handle the case where k is greater than or equal to the list length, which the code treats as an invalid input.  (2) Incorrectly setting the pointer gap, as the code requires a k+1 distance to position the slow pointer at the node preceding the target.
 # ──────────────────────────────────────────────────
 
 #!/bin/python3
