@@ -7,6 +7,11 @@
 # Language    python3
 # Status      Accepted
 # Submitted   2026-07-22, 12:22 a.m.
+# Technique   two-pointers-dummy-node
+# Time        O(n)
+# Space       O(1)
+# Insight     A dummy node facilitates head removal by maintaining a pointer to the node preceding the target, while a fast pointer advances k+1 steps to establish the gap.
+# Pitfalls    (1) Failing to handle k larger than list length by checking fast.next during the initial k+1…  (2) Incorrectly returning the original head instead of dummy.next after modifying the list structure.
 # ──────────────────────────────────────────────────
 
 #!/bin/python3
