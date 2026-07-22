@@ -7,6 +7,11 @@
 # Language    python3
 # Status      Accepted
 # Submitted   2026-07-21, 11:10 p.m.
+# Technique   two-pointers-dummy-node
+# Time        O(n)
+# Space       O(1)
+# Trick       The code uses a dummy node to simplify edge cases when removing the head, advancing the fast pointer k+1 steps before traversing.
+# Hint        dummy.next handles head removal without extra conditional logic.
 # ──────────────────────────────────────────────────
 
 #!/bin/python3
