@@ -6,12 +6,7 @@
 # Platform    HackerRank
 # Language    python3
 # Status      Accepted
-# Submitted   2026-07-22, 12:07 a.m.
-# Technique   two-pointers-dummy-node
-# Time        O(n)
-# Space       O(1)
-# Insight     Maintaining a fixed gap of k nodes between two pointers allows the trailing pointer to land exactly on the node preceding the target for removal.
-# Pitfalls    (1) Returning the original head instead of the dummy's next pointer when the head is removed.  (2) Failing to handle k=0 or k larger than the list length as invalid inputs.  (3) Incorrectly advancing the fast pointer, causing the slow pointer to miss the predecessor node.
+# Submitted   2026-07-22, 12:14 a.m.
 # ──────────────────────────────────────────────────
 
 #!/bin/python3
