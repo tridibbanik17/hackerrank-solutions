@@ -6,12 +6,7 @@
 # Platform    HackerRank
 # Language    python3
 # Status      Accepted
-# Submitted   2026-07-21, 11:10 p.m.
-# Technique   two-pointers-dummy-node
-# Time        O(n)
-# Space       O(1)
-# Trick       The code uses a dummy node to simplify edge cases when removing the head, advancing the fast pointer k+1 steps before traversing.
-# Hint        dummy.next handles head removal without extra conditional logic.
+# Submitted   2026-07-21, 11:46 p.m.
 # ──────────────────────────────────────────────────
 
 #!/bin/python3
@@ -71,7 +66,6 @@ def print_singly_linked_list(node, sep):
 #
 #
 def removeKthNodeFromEnd(head, k):
-    k = int(k)
     if k < 0 or head is None:
         return head
 
