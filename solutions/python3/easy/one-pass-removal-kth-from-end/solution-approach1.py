@@ -6,13 +6,7 @@
 # Platform    HackerRank
 # Language    python3
 # Status      Accepted
-# Submitted   2026-07-21, 11:46 p.m.
-# Technique   two-pointers-dummy-node
-# Time        O(n)
-# Space       O(1)
-# Insight     Maintaining a fixed gap of k+1 nodes between pointers ensures the slow pointer stops exactly at the node preceding the target, allowing for safe deletion even if the head is removed.
-# Interview   I will use two pointers with a dummy node to handle head-removal cases gracefully. By offsetting the fast pointer by k+1, the slow pointer naturally lands on the predecessor of the target node.
-# Pitfalls    (1) Off-by-one error in the initial fast pointer offset  (2) Failing to handle cases where k equals the list length  (3) Returning the original head instead of dummy.next
+# Submitted   2026-07-21, 11:51 p.m.
 # ──────────────────────────────────────────────────
 
 #!/bin/python3
