@@ -6,12 +6,7 @@
 # Platform    HackerRank
 # Language    python3
 # Status      Accepted
-# Submitted   2026-07-21, 11:11 p.m.
-# Technique   two-pointers-dummy-node
-# Time        O(n)
-# Space       O(1)
-# Trick       The code uses a dummy node to simplify edge cases where the head itself must be removed by maintaining a k+1 gap.
-# Hint        dummy.next handles head removal without extra conditional logic.
+# Submitted   2026-07-23, 11:33 p.m.
 # ──────────────────────────────────────────────────
 
 #!/bin/python3
@@ -91,8 +86,6 @@ def removeKthNodeFromEnd(head, k):
 
     slow.next = slow.next.next
     return dummy.next
-    
-    
 
 if __name__ == '__main__':
     head_count = int(input().strip())
