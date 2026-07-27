@@ -1,5 +1,20 @@
 ## Auto-save HackerRank Accepted solutions to GitHub
 
-Stop copy-pasting after every Accept. **[PrepPush](https://chromewebstore.google.com/detail/lkbbmepdmkokiapildnhkimcgnofokdd)** is a free Chrome extension that pushes Accepted submissions to *your* repo with optional AI prep comments (Big-O + one-line trick).
+**Automated Repository**: All solutions, time complexities, and interview notes in this repository are automatically synchronized using **[PrepPush](https://chromewebstore.google.com/detail/lkbbmepdmkokiapildnhkimcgnofokdd?utm_source=item-share-cb)**.
 
-[30s demo](https://www.youtube.com/watch?v=-AE2qVfzToY) · Not affiliated with HackerRank
+---
+
+## Interactive File Tree
+Explore the full repository structure interactively:
+**[View Interactive Directory Tree](https://githubtree.mgks.dev/repo/tridibbanik17/hackerrank-solutions/main/)**
+
+---
+
+## Repository Overview
+* **Organized by:** Problem Category / Difficulty / Language
+* **Unique Approaches:** Tracked as `approach1.py`, `approach2.py`, etc.
+* **Includes:** Time/Space Complexity, Interview Insights, Dialogue, and Pitfalls
+
+---
+
+[30s demo](https://www.youtube.com/watch?v=-AE2qVfzToY)
