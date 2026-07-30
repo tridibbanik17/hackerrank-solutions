@@ -6,13 +6,7 @@
 # Platform    HackerRank
 # Language    python3
 # Status      Accepted
-# Submitted   2026-07-29, 10:02 p.m.
-# Technique   linear-scan-adjacent-comparison
-# Time        O(n)
-# Space       O(1)
-# Insight     The algorithm counts the total number of adjacent character pairs that are identical, which corresponds to the minimum number of deletions required to eliminate all consecutive duplicates.
-# Interview   Before: "I could use a stack to track characters and pop duplicates." After: "A linear scan is more efficient at O(n) time and O(1) space, as we only need to compare each character with its immediate predecessor to identify necessary deletions."
-# Pitfalls    (1) Failing to handle empty strings or single-character strings, which the code explicitly guards against to return zero.  (2) Incorrectly indexing the loop by starting at zero instead of one, which would cause an index out of bounds error when accessing the previous character.
+# Submitted   2026-07-29, 10:10 p.m.
 # ──────────────────────────────────────────────────
 
 #!/bin/python3
