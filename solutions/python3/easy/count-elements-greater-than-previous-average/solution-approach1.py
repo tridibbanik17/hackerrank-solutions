@@ -6,12 +6,7 @@
 # Platform    HackerRank
 # Language    python3
 # Status      Accepted
-# Submitted   2026-07-14, 12:30 p.m.
-# Technique   nested-loop-summation
-# Time        O(n^2)
-# Space       O(n)
-# Trick       The code maintains a running list of previous elements and calculates the average using a manual loop over prev_list for every iteration.
-# Hint        The manual sum loop over prev_list is O(n) per iteration.
+# Submitted   2026-08-01, 05:40 a.m.
 # ──────────────────────────────────────────────────
 
 #!/bin/python3
